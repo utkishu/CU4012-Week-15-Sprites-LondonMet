@@ -2,7 +2,6 @@
 // A class representing a single renderable game object.
 // Game Object extend sf::RectangleShape, and added functionailty for collision, sprite states (alive/dead), velocity for movement, input component
 // Most elements of your game will extend game object to create larger more complex elements such as player, enemies, bullets etc.
-// @author paul Robertson
 
 #pragma once
 #include "SFML\Graphics.hpp"
