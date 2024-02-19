@@ -8,6 +8,8 @@
 #include <iostream>
 #include "Player.h"
 #include "Enemy.h"
+#include "Cursor.h"
+#include "Background.h"
 
 class Level : BaseLevel {
 public:
@@ -32,5 +34,16 @@ private:
 	sf::Texture e1Tex, e2Tex;
 
 	sf::Vector2f move, move1;
+
+
+	//Custom Cursor 
+	Cursor mousePointer;
+	sf::Texture cursorTex;
+
+	//Background stuff
+	Background bg;
+	sf::Texture backgroundTex; 
+
+	sf::View view;
 
 };
